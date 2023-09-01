@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("assets/bg.png");
+    background-size: cover;
+
+}
+h6{
+    text-align: center;
+    color: rgb(90, 37, 192);
+
+    font-size: 6rem;
+    font-weight: 900;
+    margin-top: 100px;
+}
+#game{
+    color: white;
+    font-size: xx-large;
+    display:inline;
+    margin-left: 400px;
+
+}
+.play-button{
+    width: 80px;
+}
+.game-logo{
+    margin-left:400px ;
+}
+.score{
+    text-align: center;
+    font-size: 7rem;
+    color: white;
+    
+}
+.game-space{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+    padding: 100px;
+
+}
+.you-space, .comp-space{
+    border: 3px solid yellow;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+
+.logos{
+    display:flex;
+    justify-content: space-around;
+    padding: 40px 10px;
+}
+div>h5{
+    text-align: center;
+    font-size: 3rem;
+    font-weight:900;
+
+}
+.vs{
+    width: 80px;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gameover {
+    margin: 2rem 0;
+    visibility: hidden;
+    align-self: stretch;
+    color: white;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+
+#gameover h2 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: white;
+}
+
+#gameover button {
+    margin-top: 0.5rem;
+    background-color: #ffc434;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    font-weight: 700;
+    color: white;
+    width: 50%;
+    margin: auto;
+    font-size: 1.5rem;
+    border: 0px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+.hands{
+    height: 200px;
+}
+.button{
+    width: 80px;
+}
