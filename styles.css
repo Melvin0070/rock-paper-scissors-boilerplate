@@ -31,6 +31,7 @@ h6{
 }
 .game-logo{
     margin-left:400px ;
+    
 }
 .score{
     text-align: center;
@@ -51,7 +52,6 @@ h6{
     flex-direction: column;
     justify-content: space-between;
     
-
 }
 
 .logos{
@@ -113,3 +113,45 @@ button:hover {
 .button{
     width: 80px;
 }
+
+@media screen and (max-width: 768px) {
+    #game {
+
+        margin-left: 0; 
+    }
+
+    .play-button {
+
+        width: 60px;
+    }
+
+    .game-logo {
+
+        margin-left: 0; /
+    }
+
+    .score {
+
+        font-size: 5rem;
+    }
+
+    .game-space {
+
+        grid-template-columns: repeat(1, 1fr); 
+        padding: 20px;
+        width: 10px; 
+    }
+
+    .you-space,
+    .comp-space {
+  
+        border: 2px solid yellow;
+        padding: 20px;
+    }
+    .vs{
+        width: 30px;
+    }
+}
+
+
+
